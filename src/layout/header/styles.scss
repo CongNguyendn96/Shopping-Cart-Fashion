@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: #a4b2fa;
+    h2 {
+        font-style: italic;
+        color: #fff;
+        font-family:'Courier New', Courier, monospace;
+    }
+    a {
+        .header-btn {
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 20px;
+            font-size: 16px; 
+            border-radius:6px;
+            background-color: rgb(232, 173, 24); 
+            color: #fff;
+            border: none;
+        }
+        .header-btn:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+}
